@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url("./img/table.png");
+    background-size: cover;
     font-family: "Exo 2", sans-serif;
     height: 100vh;
 }
@@ -18,17 +19,29 @@ button {
     background-color: #FFF100;
     cursor: pointer;
     border: none;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 6px;
+    background: black;
+    font-weight: 600;
 }
 
 button#new-deck {
     align-self: flex-start;
-    padding: 5px;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 6px;
+    background: black;
+    font-weight: 600;
+}
+
+#remaining {
+    margin: 0.4em 0 0 1em;
 }
 
 button.draw {
     font-size: 1.2em;
-    padding: 5px;
-    align-self: stretch;
+    padding: 0.5em 2em;
 }
 
 div.card-slot {
